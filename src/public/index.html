@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rooms</title>
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <div class="caja">
+        <header>CHAT ROOMS</header>
+        <form action="">
+            <input type="text" name="username" placeholder="Nombre de usuario" autocomplete="off">
+            <hr>
+            <input type="submit" value="Crear sala" id="crear" defa>
+            <hr>
+            <input type="text" name="salaid" placeholder="Sala existente" maxlength="4" minlength="4">
+            <input type="submit" value="Entrar a sala" id="entrar">
+        </form>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>

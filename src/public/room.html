@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat #0001</title>
+    <link rel="stylesheet" href="./assets/css/room.css">
+</head>
+
+<body>
+    <section>
+        <svg>
+            <filter id="gooey">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="10"/>
+                <feColorMatrix values="
+                    1 0 0 0 0
+                    0 1 0 0 0
+                    0 0 1 0 0
+                    0 0 0 20 -10
+                "></feColorMatrix>
+            </filter>
+        </svg>
+        <div class="loader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;"></span>
+            <span style="--i:3;"></span>
+            <span style="--i:4;"></span>
+            <span style="--i:5;"></span>
+            <span style="--i:6;"></span>
+            <span style="--i:7;"></span>
+            <span style="--i:8;"></span>
+            <span class="rotate" style="--j:0;"></span>
+            <span class="rotate" style="--j:1;"></span>
+            <span class="rotate" style="--j:2;"></span>
+            <span class="rotate" style="--j:3;"></span>
+            <span class="rotate" style="--j:4;"></span>
+        </div>
+    </section>
+    <header>
+        ChatRoom #0001 - Username #Andres Cardenas
+    </header>
+    <div class="container">
+        <div class="contenedor">
+            <div class="chat">
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perferendis?
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje me">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perferendis?
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis
+                        exercitationem nam dolor perferendis enim consequatur quod veniam neque maiores.
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje me">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem voluptate
+                        harum hic nemo ut eveniet est amet, mollitia, quia maiores?
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje me">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, perferendis?
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis
+                        exercitationem nam dolor perferendis enim consequatur quod veniam neque maiores.
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje me">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis rem voluptate
+                        harum hic nemo ut eveniet est amet, mollitia, quia maiores?
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+                <div class="mensaje">
+                    <div class="nombre">name</div>
+                    <div class="texto">Lorem ipsum dolor sit amet.
+                    </div>
+                    <div class="hora">06:15 PM</div>
+                </div>
+
+            </div>
+            <div class="redactar">
+                <div class="texto" contenteditable></div>
+                <button>Enviar</button>
+            </div>
+        </div>
+        <div class="barra-lateral">
+            <div class="titulo">Lista de conectados</div>
+            <div class="lista-contactos">
+                <ul>
+                    <li title="Andres Cardenas">Andres Cardenas</li>
+                    <li title="Carlos Asprilla">Carlos Asprilla</li>
+                    <li title="Carla Gonzales">Carla Gonzales</li>
+                </ul>
+            </div>
+            <div class="propiedad">
+                &copy; Andres Cardenas
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/room.js"></script>
+</body>
+
+</html>
